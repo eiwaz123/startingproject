@@ -1,4 +1,4 @@
-import cv2
+from cv2 import cv2
 
 # Get the first webcam on the system
 camera = cv2.VideoCapture(0) #Kahit wala na to eh para lang naman yan sa number ng device
